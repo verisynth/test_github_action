@@ -9,6 +9,6 @@ jobs:
         python-version: [ "3.10" ]
 
     steps:
-      - uses: honglu2875/test_repo@v1
+      - uses: blazon-ai/verisynth@v0
         with:
           token: ${{ secrets.TOKEN }}

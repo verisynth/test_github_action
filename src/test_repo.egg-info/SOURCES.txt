@@ -1,0 +1,11 @@
+.gitignore
+pyproject.toml
+requirements.txt
+src/test_repo/__init__py
+src/test_repo/entry.py
+src/test_repo.egg-info/PKG-INFO
+src/test_repo.egg-info/SOURCES.txt
+src/test_repo.egg-info/dependency_links.txt
+src/test_repo.egg-info/requires.txt
+src/test_repo.egg-info/top_level.txt
+tests/test_test_repo_entry_palindrome.py
