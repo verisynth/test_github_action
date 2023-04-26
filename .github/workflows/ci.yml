@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: honglu2875/test_repo
+      - uses: honglu2875/test_repo@v0
