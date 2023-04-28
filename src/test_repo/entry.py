@@ -1,11 +1,12 @@
 import verisynth
 
 
-@verisynth.completion()
 def palindrome(original: str) -> bool:
-    """
+    '''
     Return True if `original` is a palindrome (case sensitive), False otherwise.
-    """
+    '''
+    return original == original[::-1]
+
 
 
 @verisynth.completion()
