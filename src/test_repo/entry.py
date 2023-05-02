@@ -8,8 +8,11 @@ def palindrome(original: str) -> bool:
     return original == original[::-1]
 
 
-@verisynth.completion()
 def sum_of_digits(n: int) -> int:
     """
     Return the sum of the digits of `n`.
     """
+    if n < 0:
+        n *= -1
+    digits = [int(d) for d in str(n)]
+    return sum(digits)
